@@ -16,18 +16,26 @@ body{
     text-align: center;
 }
 
-.header{
-	font-size: 1rem;
-	border: 0px;
-	height: 0.1rem;
-	display: inline-flex;	
-	justify-content: space-between;
+
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
-.navigation{
-	display: inline-flex;
-	column-gap: 15px;
-	justify-content: space-around;
+.header{
+	font-size: 1rem;
+	display: flex;	
+	margin: 0;
+	padding: 0px 30px 0px 0px;
+}
+
+.tab{
+	padding: 10px;
+}
+
+.contact{
+	margin-left: auto;
 }
 
 
@@ -38,15 +46,14 @@ body{
 }
 
 .cover{
-	height: 400px;
+	height: 50vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-img{
-	height: 5rem;
-	width: 5rem;
+.image > img{
+	width: 100%;
 }
 
 .project{
@@ -55,7 +62,8 @@ img{
 
 .image{
 	background: #808080;
-	height: 10rem;
+	/*height: 10rem;*/
+	padding: 30px 50px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -80,7 +88,7 @@ img{
 }
 
 .author{
-	color: blueviolet;
+	font: bold ;
 	grid-column: 2/3;
 }
 
